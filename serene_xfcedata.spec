@@ -7,7 +7,7 @@ License: NONE
 Packager: kokkiemouse
 Vendor: INDETAIL
 
-Source0: https://github.com/SereneLinux/SereneXfceData/archive/f1e05795591889458c3eff4495bbff920f4f80d6.tar.gz
+Source0: https://github.com/SereneLinux/SereneXfceData/archive/1ee85e5bcf55daf1f22718b434c2030d7722000f.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 %global debug_package %{nil}
 %description
@@ -15,7 +15,7 @@ serenelinux livetools
 %prep
 rm -rf $RPM_BUILD_ROOT
 
-%autosetup -n SereneXfceData-f1e05795591889458c3eff4495bbff920f4f80d6
+%autosetup -n SereneXfceData-1ee85e5bcf55daf1f22718b434c2030d7722000f
 
 %build
 
