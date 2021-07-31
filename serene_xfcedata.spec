@@ -1,7 +1,7 @@
 Summary: serene_xfcedata
 Name: serene_xfcedata
 Version: 1.0.0
-Release: 2%{?dist}
+Release: 3%{?dist}
 Group: User Interface/Desktops
 License: NONE
 Packager: kokkiemouse
@@ -28,7 +28,7 @@ cp -arf ./usr $RPM_BUILD_ROOT/
 rm -rf $RPM_BUILD_ROOT
 
 %post
-cp -rf /usr/share/serenekun/etc /
+
 %postun
 
 %files
