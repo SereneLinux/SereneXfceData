@@ -1,7 +1,7 @@
 Summary: serene_xfcedata
 Name: serene_xfcedata
 Version: 1.0.0
-Release: 5%{?dist}
+Release: 7%{?dist}
 Group: User Interface/Desktops
 License: NONE
 Packager: kokkiemouse
