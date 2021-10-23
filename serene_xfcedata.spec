@@ -1,13 +1,13 @@
 Summary: serene_xfcedata
 Name: serene_xfcedata
 Version: 1.0.0
-Release: 10%{?dist}
+Release: 11%{?dist}
 Group: User Interface/Desktops
 License: NONE
 Packager: kokkiemouse
 Vendor: INDETAIL
 
-Source0: https://github.com/SereneLinux/SereneXfceData/archive/a431d7537dc919a16a30dc0d5a23a588e320ce28.tar.gz
+Source0: https://github.com/SereneLinux/SereneXfceData/archive/06dc8a8aa43b5347b3f9eafdf2322acc64e23b1c.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 %global debug_package %{nil}
 %description
@@ -15,7 +15,7 @@ serenelinux livetools
 %prep
 rm -rf $RPM_BUILD_ROOT
 
-%autosetup -n SereneXfceData-a431d7537dc919a16a30dc0d5a23a588e320ce28
+%autosetup -n SereneXfceData-06dc8a8aa43b5347b3f9eafdf2322acc64e23b1c
 
 %build
 
