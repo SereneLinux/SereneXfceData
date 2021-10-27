@@ -10,7 +10,7 @@
 #
 
 #-- Alias --#
-[[ -f .aliases ]] && source .aliases
+[[ -f /usr/local/lib/lsd-alias ]] && source /usr/local/lib/lsd-alias
 
 
 #-- Completion --#
